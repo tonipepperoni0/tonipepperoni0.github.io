@@ -1,0 +1,19 @@
+:root {
+    --blue: #434343;
+    --kpos: 200px;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+#keyboard {
+    position: relative;
+    top: var(--kpos);
+    left: var(--kpos);
+}
+
+div {
+    background-color: rgba(122, 182, 235, 0);
+    width: fit-content;
+}
