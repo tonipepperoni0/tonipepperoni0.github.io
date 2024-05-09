@@ -1,10 +1,10 @@
 {
-    "name":"Sky Automusic",
-    "short_name":"Automusic",
+    "name":"SkyMusic",
+    "short_name":"SkyMusic",
     "start_url":"/index.html",
     "display":"standalone",
-    "background_color":"#00b09b",
-    "theme_color":"#96c93d",
+    "background_color":"#51adc9",
+    "theme_color":"#434343",
     "orientation":"portrait-primary",
     "icons":[
         {
