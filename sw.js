@@ -1,9 +1,9 @@
-const staticCacheName = "site-static-v7";
+const staticCacheName = "site-static-v8";
 const assets = [
-    'index.html',
+    'index1.html',
     'app.js',
     'ui.js',
-    'style_v2.css'];
+    'style_v3.css'];
 
 self.addEventListener('install', evt => {
     //console.log("service worker has been installed");
