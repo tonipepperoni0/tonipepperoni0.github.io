@@ -1,7 +1,7 @@
 {
     "name":"SkyMusic",
     "short_name":"SkyMusic",
-    "start_url":"/index1.html",
+    "start_url":"/index.html",
     "display":"fullscreen",
     "background_color":"#00bfff",
     "theme_color":"#434343",
