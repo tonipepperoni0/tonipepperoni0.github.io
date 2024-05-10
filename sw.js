@@ -1,15 +1,16 @@
-const staticCacheName = "site-static-v5";
+const staticCacheName = "site-static-v6";
 const assets = [
     'index.html',
     'app.js',
     'ui.js',
-    'style_v1.css'];
+    'style_v2.css'];
 
 self.addEventListener('install', evt => {
     //console.log("service worker has been installed");
     evt.waitUntil(caches.open(staticCacheName).then(cache => {
         console.log('caching shell assets');
         cache.addAll(assets);
+        self.skipWaiting();
     }))
 });
 

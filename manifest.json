@@ -6,7 +6,7 @@
     "background_color":"#00bfff",
     "theme_color":"#434343",
     "orientation":"landscape",
-    "version": "1.2.0",
+    "version": "1.0.0",
     "icons":[
         {
             "src":"Icons/icon_32.png",
