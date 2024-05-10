@@ -3,14 +3,13 @@ const assets = [
     'index.html',
     'app.js',
     'ui.js',
-    'style.css'];
+    'style_v1.css'];
 
 self.addEventListener('install', evt => {
     //console.log("service worker has been installed");
     evt.waitUntil(caches.open(staticCacheName).then(cache => {
         console.log('caching shell assets');
         cache.addAll(assets);
-        self.skipWaiting();
     }))
 });
 
